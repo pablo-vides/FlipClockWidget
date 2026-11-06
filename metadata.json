@@ -1,0 +1,8 @@
+{
+  "uuid": "flip-clock-widget@TUUSUARIO.github.io",
+  "name": "Flip Clock Widget",
+  "description": "A flip clock that floats on the desktop, under your windows.\n\nChoose the monitor, size and position in the preferences, and switch between 12 and 24 hour format.",
+  "shell-version": ["46"],
+  "url": "https://github.com/TUUSUARIO/flip-clock-widget",
+  "settings-schema": "org.gnome.shell.extensions.flip-clock-widget"
+}

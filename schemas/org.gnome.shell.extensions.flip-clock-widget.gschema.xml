@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.flip-clock-widget" path="/org/gnome/shell/extensions/flip-clock-widget/">
+    <key name="monitor" type="i">
+      <default>0</default>
+      <summary>Índice del monitor</summary>
+    </key>
+    <key name="size" type="i">
+      <range min="10" max="100"/>
+      <default>35</default>
+      <summary>Ancho del reloj en % del ancho del monitor</summary>
+    </key>
+    <key name="pos-x" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>Posición horizontal del centro (%)</summary>
+    </key>
+    <key name="pos-y" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>Posición vertical del centro (%)</summary>
+    </key>
+    <key name="use-24h" type="b">
+      <default>true</default>
+      <summary>Formato 24 horas</summary>
+    </key>
+  </schema>
+</schemalist>
